@@ -15,19 +15,19 @@ var img1; // make this var the image we put into the html
 var year = 2018-28;
 
 console.log(year);
-var x= typeof 16
-console.log(x)
-var arras = [1,2,3,4]//arrays
-console.log(arras[0])
+var x= typeof 16;
+console.log(x);
+var arras = [1,2,3,4];//arrays
+console.log(arras[0]);
 // ? means "then"  and : means else
 var ques = arras.length ===4 ? "yay" : "booo"; 
 if (arras.length ===4){
-    console.log("yay")
+    console.log("yay");
 }else{
-    console.log("booo")
+    console.log("booo");
 }//this is the same thing as above with more lines of code
 
-console.log(ques)// very insteresting.
+console.log(ques);// very insteresting.
 
 //functions 
 function calcualteAge(b){
@@ -38,15 +38,15 @@ console.log(calcualteAge(1990));// functions exercise
 var w = function(j, first){// switch case practice
     switch(j){
         case 'teacher':
-            return first +" teaches kids "
+            return first +" teaches kids ";
         case 'driver':
-            return first + "drives"
+            return first + "drives";
         default:
-            return first +"does nothing"
+            return first +"does nothing";
     }
-}
+};
 
-console.log(w('teacher', 'john'))
+console.log(w('teacher', 'john'));
 
 // ternary operators with switch statements 
 var age = 22;
@@ -54,13 +54,13 @@ var drink = age >= 18 ? 'beer' : 'juice';
 console.log(drink);
 switch (true){
     case age<13:
-        console.log(first +'boy')
+        console.log(first +'boy');
         break;
     case age>= 13 && age <20:
-        console.log(first +' is a teenager')
+        console.log(first +' is a teenager');
         break;
     default:
-        console.log("is something else")
+        console.log("is something else");
 
 
 }
@@ -78,8 +78,8 @@ var john = {
     }
 };
 //getting data from an object
-console.log(john)
-console.log(john.family)
-console.log(john.family[0])
-console.log(john.calcAge(1990))
-console.log(john.calcAge())
+console.log(john);
+console.log(john.family);
+console.log(john.family[0]);
+console.log(john.calcAge(1990));
+console.log(john.calcAge());
