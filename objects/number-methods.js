@@ -31,3 +31,63 @@ let makeGuess = function(guess){
 };
 
 makeGuess(1);
+
+
+// let numbers = 3;
+
+// let answerss = numbers%2;
+// console.log('this is :'+answerss);
+
+// let l = 3 ;
+
+// let r = 7;
+
+// let i = l ;
+//  for( i; i < r+1; i++){
+//    if ( i %2 === 1){
+
+//      console.log(i);
+//    }
+//  }
+//simple question ignore
+// let str = '><><><>>><>>>>>>>>>>';
+// let x = 0;
+// let y = 0;
+// let ii = 0;
+// let xx = [];
+// let yy=[];
+// let master = []
+// let replacements = 3;
+// let replacementCount = 0;
+// for( ii ; ii<str.length+1; ii++ ){
+//   if(str[ii] === '<'){
+//     xx.push(str[ii]);
+//   }
+//   if(str[ii] === '>'){
+//     yy.push(str[ii]);
+//   }
+//   if(xx.length < yy.length && str[ii]==='>' && str[ii-1]==='>'){
+//     master.push('<>');
+//     xx.push('<');
+//     if(replacementCount > replacements){
+//       return console.log('not balanced');
+
+//     }else{
+//       replacementCount= replacementCount+1;
+//     }
+//   }else {
+//     master.push(str[ii]);
+//   }
+// }
+// if(xx.length === yy.length){
+//   console.log("balanced");
+// }else{
+//   console.log('not balanced');
+
+// }
+// console.log(xx);
+// console.log(yy);
+
+
+
+
