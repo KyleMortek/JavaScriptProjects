@@ -1,0 +1,4 @@
+//notes for website
+const pic = document.createElement('img');
+pic.src = "BMW1.jpg";
+document.querySelector('body').appendChild(pic);
