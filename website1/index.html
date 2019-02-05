@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<!-- 
+  cd Documents\GitHub\JavaScriptProjects
+  live-server "website building"
+ -->
 <html lang="en">
 
 <head>
@@ -16,24 +20,28 @@
 
 <body>
   <header>
-    <nav>
+    <div class="row">
+    <nav class="sticky">
       <div class="row">
         <img class="logo" src="resources/css/img/logo-white.png" alt="Omnifood Logo">
+        <img class="logo-black" src="resources/css/img/logo.png" alt="Omnifood Logo black">
         <ul class="main-nav clearfix">
-          <li><a href="#" >Food delivery</a></li>
-          <li><a href="#">How it works</a></li>
-          <li><a href="#">Our cities</a></li>
-          <li><a href="#">Sign up</a></li>
+          <li><a href="#features">Food delivery</a></li>
+          <li><a href="#stepss">How it works</a></li>
+          <li><a href="#cities">Our cities</a></li>
+          <li><a href="#signup">Sign up</a></li>
         </ul>
       </div>
     </nav>
-    <div class="hero-text-box">
+  </div>
+
+    <div class="row hero-text-box">
       <h1>Goodbye junk food. <br>Hello super healthy meals.</h1>
-      <a class="btn btn-full" href="#">I’m hungry</a>
-      <a class="btn btn-ghost" href="#">Show me more</a>
+      <a class="btn btn-full js--scroll-to-plans" href="#">I’m hungry</a>
+      <a class="btn btn-ghost js--scroll-to-show-me" href="#">Show me more</a>
     </div>
   </header>
-  <section class="section-features">
+  <section class="section-features js--section-features" id= "features">
     <div class="row">
       <h2>Get food fast &mdash; not fast food</h2>
       <p class="long-copy">
@@ -78,7 +86,7 @@
       </div>
     </div>
   </section>
-  <section class="section-meals">
+  <section class="section-meals ">
     <ul class="meals-showcase clearfix">
       <li>
         <figure class="meal-photo">
@@ -127,8 +135,9 @@
       </li>
     </ul>
   </section>
-  <section class="section-steps">
-    <div class="row">
+  <section class="section-steps js--section-step" id="stepsss">
+    <div class="row" id="stepss" >
+      
       <h2>How it works &mdash; Simple as 1, 2, 3</h2>
     </div>
     <div class="row">
@@ -153,7 +162,7 @@
       </div>
     </div>
   </section>
-  <section class="section-cities">
+  <section class="section-cities js--section-cities" id= "cities">
     <div class="row">
       <h2>We're currently in these cities</h2>
     </div>
@@ -233,7 +242,7 @@
       </div>
     </div>
   </section>
-  <section class="section-testimonials">
+  <section class="section-testimonials js--section-test" >
     <div class="row">
       <h2>Our customers can't live without us</h2>
     </div>
@@ -262,7 +271,7 @@
       </div>
     </div>
   </section>
-  <section class="section-plans">
+  <section class="section-plans js--section-plans" id="signup">
     <div class="row">
       <h2>Start eating healthy today</h2>
     </div>
@@ -408,11 +417,11 @@
       </div>
       <div class="col span-1-of-2">
         <ul class="social-links">
-          <li><a id = "facebook" href="#"  class="other-sites ion-logo-facebook"></a></li>
-          <li><a id = "insta" href="#" class="ion-logo-instagram"></a></li>
-          <li><a id = "twitter" href="#" class="ion-logo-twitter"></a></li>
-          <li><a id = "pinterest" href="#" class="ion-logo-pinterest"></a></li>
-          <li><a id = "bitcoin" href="#" class="ion-logo-bitcoin"></a></li>
+          <li><a id="facebook" href="#" class="other-sites ion-logo-facebook"></a></li>
+          <li><a id="insta" href="#" class="ion-logo-instagram"></a></li>
+          <li><a id="twitter" href="#" class="ion-logo-twitter"></a></li>
+          <li><a id="pinterest" href="#" class="ion-logo-pinterest"></a></li>
+          <li><a id="bitcoin" href="#" class="ion-logo-bitcoin"></a></li>
         </ul>
       </div>
     </div>
@@ -420,39 +429,11 @@
       <p>GETNOTICED</p>
     </div>
   </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- <script src="lodash.js"></script> -->
+  <script src="vendor/js/jquery.waypoints.min.js"></script>
+  <script src="resources/js/script.js"></script>
+
 </body>
 
 </html>
-<!--
-
-  Navigation:
-1. About us
-2. Blog
-3. Press
-4. iOS App
-5. Android App
-
-Also include links to facebook, twitter, google+ and Instagram accounts.
-
-  Section 7: Contact form
-Title: We're happy to hear from you
-
-Fields to include:
-Name
-Email
-How did you find us?
-Newsletter
-Drop us a line
-
-Section 8: Footer
-Title: None
-
-Navigation:
-1. About us
-2. Blog
-3. Press
-4. iOS App
-5. Android App
-
-Also include links to facebook, twitter, google+ and Instagram accounts. 
--->
