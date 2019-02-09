@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="vendor/css/normalize.css">
+  <link rel="stylesheet" href="vendor/css/Grid.css">
+  <link rel="stylesheet" href="vendor/css/ionicons.min.css">
+  <link rel="stylesheet" href="vendor/css/animate.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+  <link rel="stylesheet" href="vendor/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <!-- background image  find in css header-->
+    <nav>
+      <div class="row">
+        <!-- logo -->
+        <ul class="main-nav">
+          <li><a href="#About">About</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Future">Future Projects</a></li>
+          <li><a href="#Education">Education</a></li>
+
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+      <!-- 
+        row
+          logo
+          navigation tabs
+          hamburger menu for mobile
+        
+      -->
+    </nav>
+    <!-- 
+      div 
+        profile image
+        name
+        what position im interested in
+        NEXT btn 
+     -->
+    <!-- TITLE -->
+    <section class="tPage">
+      <div class="row title-page">
+        <h1>Kyle Mortek</h1>
+
+        <a class="btn btn-att" href="#"> View Page</a>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-2">
+          <!-- profileimage -->
+        </div>
+        <div class="col span-1-of-2">
+          <!--  -->
+        </div>
+      </div>
+    </section>
+  </header>
+  <!-- ############################### Section 1 -->
+  <section class="section-about-me" id="About">
+    <!-- <p>This Is Me</p> -->
+    <div class="row">
+      <h2>This Is Me</h2>
+    </div>
+    <div class="row">
+      <div class="col span-1-of-2">
+        <!-- image of me -->
+      </div>
+      <div ></div>
+    </div>
+    <i class="fab fa-500px"></i>
+    <i class="fab fa-500px fa-2x"></i>
+    <i class="fab fa-500px fa-2x"></i>
+    <i class="fal fa-truck-monster fa-2x fa-spin" style="color: #339af0;"></i>
+  </section>
+  <section class="section-projects" id="Projects">
+    <div class="row secHead">
+      <h2>Projects</h2>
+    </div>
+    <div class="row">
+      <!-- <div class="col span-1-of-2 completed-list"> -->
+        <ul class="completed-list">
+          <li>
+            <figure class="completed">
+              <img src="resources/css/img/portfolioR.jpg" alt="portfolio">
+            </figure>
+          </li>
+          <li>
+            <figure class="completed">
+              <img src="resources/css/img/omnip1r.jpg" alt="omnifood">
+            </figure>
+          </li>
+          <li>
+            <figure class="completed">
+              <img src="resources/css/img/notesappp2r.jpg" alt="notesapp">
+            </figure>
+          </li>
+          <li>
+            <figure class="completed">
+                <img src="resources/css/img/todoappp3r730.jpg" alt="todosapp">
+            </figure>
+          </li>
+        </ul>
+      <!-- </div> -->
+    </div>
+    <!-- 
+      projects 
+        portfolio
+        todo app js
+        notes app js
+        omnifood html css 
+     -->
+  </section>
+  <section class="section-waitlist" id="Future">
+    <div class="row secHead"> 
+      <h2>Future</h2>
+    </div>
+    <!-- 
+      instagram webpage
+      class79.org
+      SpotMe app
+     -->
+  </section>
+  <section class="section-education" id="Education">
+    <div class="row secHead">
+        <h2>Education</h2>
+    </div>
+  </section>
+  <section class="section-contact" id="Contact">
+    <div class="row secHead">
+      <h2>Contact</h2>
+    </div>
+    <!-- 
+      name
+      email
+      message
+      
+     -->
+  </section>
+  <footer>
+    <div class="row">
+      <div class="col span-1-of-2">
+      </div>
+    </div>
+    <div class="row this-is-me">
+      <h1>WorkInProgress</h1>
+    </div>
+    <!-- 
+      icons
+        linkedin
+        twitter
+        Ethereum
+     -->
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- <script src="lodash.js"></script> -->
+  <script src="vendor/js/jquery.waypoints.min.js"></script>
+  <script src="resources/js/portfolio.js"></script>
+</body>
+<script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCQYAVSvUi5j87CkOVp2PA8xdi4R_4IYvo",
+    authDomain: "website-be665.firebaseapp.com",
+    databaseURL: "https://website-be665.firebaseio.com",
+    projectId: "website-be665",
+    storageBucket: "website-be665.appspot.com",
+    messagingSenderId: "137512057357"
+  };
+  firebase.initializeApp(config);
+</script>
+
+</html>

@@ -1,0 +1,128 @@
+html{
+  background-color: #fff;
+  color: #555;
+  font-family: 'Lato','sans-serif';
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+.title-page{
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  /* text-align: center; */
+  position: absolute;
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  font-size: 2vw;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  /* overflow hidden caused View page to partially disappear.  */
+  /* overflow: hidden; */ 
+}
+/* ########################## */
+/* Links */
+/* ########################## */
+
+a:link,
+a:visited{
+  color: #e67e22;
+  text-decoration: none;
+  padding-bottom: 1px; 
+  border-bottom: 1px solid #e67e22;
+  -webkit-transition: border-bottom 0.2s,color 0.2s;
+  transition: border-bottom 0.2s,color 0.2s;
+}
+a:hover,
+a:active{
+  color: #555;
+  border-bottom: 1px solid transparent;
+}
+
+/* ########################## */
+/* Buttons */
+/* ########################## */
+
+.btn-att:link,
+.btn-att:visited{
+  border: 1px solid #e67e22;
+  text-decoration: none;
+  font-weight: 300;
+  border-radius: 200px;
+  padding: 10px 30px;
+
+}
+.btn-att:hover,
+.btn-att:visited{
+
+}
+
+/* ########################## */
+/* Header */
+/* ########################## */
+
+/* sechead applies the same look to all section titles */
+.secHead{
+
+}
+header{
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(resources/img/galaxy.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/galaxy.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;  
+  background-repeat: no-repeat;
+  height: 100vh;
+  /* height: 100%; */
+  /* width: 100%; */
+}
+
+/* ########################## */
+/* Footer */
+/* ########################## */
+.this-is-me{
+
+}
+/* ########################## */
+/* NAVIGATION */
+/* ########################## */
+.main-nav{
+  float: right;
+}
+
+.main-nav li{
+  /* beloew sits each next to each other  */
+  border-color:1px solid aqua;
+  display: inline-block;
+  list-style: none;
+  margin-right: 20px;
+
+}
+
+/* ########################## */
+/* Project Images */
+/* ########################## */
+.completed{
+
+}
+.completed-list{
+  list-style:none;
+  width: 100%;
+}
+.completed-list li{
+  display: block;
+  float: left;
+  /* border-radius: 200px; */
+  /* text-decoration: none; */
+  /* text-decoration:"\f26e"; */
+  /* content:""; */
+  /* text-align: center; */
+  /* align-content: center; */
+}
+.completed-list li:before{
+  /* content:""; */
+
+}
+
